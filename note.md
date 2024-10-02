@@ -2,6 +2,8 @@
 - creating the table chess with html and css only [x]
 - colocando as pecas using unicode [pendente]
 
+- fazer peao se mover sem se preocupar com as regras
+
 
 
 

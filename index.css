@@ -3,39 +3,38 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
-    height: 100vh;
-    /* border: 1px solid red; */
+    background-color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     padding: 12px;
-    background-color: #000;
 }
+
 
 .chessboard {
     display: grid;
-    grid-template-columns: repeat(8, minmax(10px, 60px));
-    grid-template-rows: repeat(8, 60px);
-    /* border: 1px solid red; */
+    grid-template-columns: repeat(8, minmax(35px, 60px));
 }
 
 .square {
-    /* border: 1px solid black; */
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 50px;
+    height: 50px;
+    display: grid;
+ place-content: center;
+    
 }
 
 .piece {
-    font-size: 2.5rem;
+ font-size: 2.5rem;
 }
 
 .blue {
-    background-color:  #5762EF;
+    background-color: blue;
 }
+
 .white {
-    background-color: #F7F8EA;
+    background-color: white;
 }
+
